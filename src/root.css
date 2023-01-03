@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.area{
+  @apply w-full h-full relative flex justify-center items-center;
+}
+
+.chimp-square{
+  @apply max-w-[100px] aspect-square rounded-2xl text-white flex justify-center 
+    items-center cursor-pointer hover:border-white border-neutral-400 border-4;
+}
+
+.target{
+  @apply w-[100px] h-[100px] bg-red-600 rounded-full cursor-pointer absolute;
+}
